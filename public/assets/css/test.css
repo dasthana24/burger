@@ -1,0 +1,33 @@
+
+body {
+    margin:0;
+    padding:0;
+    background:url("../images/13.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+
+}
+
+.jumbotron {
+    margin:0;
+    padding:0;
+    background:url("../images/13.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:orange
+   
+}
+ h2{
+    padding: 12px;
+    font-size: 33px;
+}
+.jumbotron p{
+    font-size: 38px;
+}
+
+
