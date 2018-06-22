@@ -2,7 +2,7 @@
 body {
     margin:0;
     padding:0;
-    background:url("../images/13.jpg") no-repeat center center fixed;
+    background:url("../images/bbq-background-3\ \(1\).jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,7 +14,7 @@ body {
 .jumbotron {
     margin:0;
     padding:0;
-    background:url("../images/13.jpg") no-repeat center center fixed;
+    background:url("../images/body2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,12 +22,69 @@ body {
     color:orange
    
 }
- h2{
+img .logo{
+    border-radius: 3px;
+    
+}
+.navbar{
+    border: 1px solid  #f4511e;
+    background-color: black
+}
+ h2, h3{
     padding: 12px;
-    font-size: 33px;
+    font-size: 26px;
+
+}
+
+h5{
+    font-size: 18px;
+}
+.text-center h5{
+    color: rgb(231, 191, 9);
+    font-size: 28px;
 }
 .jumbotron p{
     font-size: 38px;
 }
+.panel {
+    border: 3px solid  #f4511e;
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+    background: peachpuff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid  #f4511e;
+    background-color:peachpuff !important;
+    color: #f4511e;
+}
 
+.panel-footer {
+    background-color:peachpuff;
+}
+.panel-heading {
+    color: orangered !important;
+    background-color:  orange !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid  #f4511e;
+   
+}
 
+textarea{
+    background: peachpuff;
+    border: 1px solid  #f4511e;
+}
+
+.burgerFooter a{
+    font-size: 28px;
+}
